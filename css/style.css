@@ -1,0 +1,271 @@
+
+
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+	text-align: center;
+    align-items: center;
+    background-color: aquamarine;
+	padding:0;
+	margin:30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* start)キャラクタースクロール */
+
+.loop_wrap{
+    display: flex; 
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.loop_wrap ul{
+    display: flex;
+}
+
+.loop_wrap li{
+    padding-left: 20px;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes loop2 {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+.loop_wrap ul:first-child {
+  animation: loop 50s -25s linear infinite;
+}
+
+.loop_wrap ul:last-child {
+  animation: loop2 50s 0s linear infinite;
+}
+
+.loop_wrap:hover ul {
+  animation-play-state: paused;
+}
+
+
+/* end)キャラクタースクロール */
+/* main box */
+.main{
+  margin: auto;
+}
+
+table{
+  border: 1px  brown;
+
+}
+.box1{
+  margin-top: 30px;
+  
+}
+.box1_1{
+    width: 300px;
+    height:0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: mediumseagreen;
+}
+
+
+.box1_2{
+    width: 120px;
+    height:0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: mediumseagreen;
+}
+
+.box1_3{
+    width: 200px;
+    height:0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: mediumseagreen;
+}
+
+
+.box1_4{
+    width: 30px;
+    height:0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.box1_5{
+    width: 200px;
+    height:0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:  mediumspringgreen;
+}
+
+
+.box1_6{
+    width: 120px;
+    height:0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: mediumspringgreen;
+}
+
+.box1_7{
+    width:300px;
+    height:auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color:  mediumspringgreen;
+}
+
+
+.box2{
+  height: 300px;
+  background-color: mintcream;
+}
+
+.box2_1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+    
+}
+.your_chara{
+  margin: auto;
+}
+.your_choice{
+  display: flex;
+  flex-direction:column;
+}
+
+.y_gu_btn{
+  padding: 20px;
+}
+.y_cyo_btn{
+  padding: 20px;
+}
+.y_pa_btn{
+  padding: 20px;
+}
+
+.box2_2{
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+
+.box2_3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.box2_3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+
+
+.box2_5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  
+}
+
+
+
+.cp_gu_btn{
+  padding: 20px;
+}
+.cp_cyo_btn{
+  padding: 20px;
+}
+.cp_pa_btn{
+  padding: 20px;
+}
+
+
+.box2_6{
+  
+}
+
+.box2_7{
+ 
+}
+
+/* main box */
+
+/* cpキャラクター */
+.c_loop_wrap{
+    display: flex; 
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.c_loop_wrap ul{
+    display: flex;
+}
+
+.c_loop_wrap li{
+    padding-left: 20px;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes loop2 {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-200%);
+  }
+}
+.c_loop_wrap ul:first-child {
+  animation: loop 50s -25s linear infinite;
+}
+
+.c_loop_wrap ul:last-child {
+  animation: loop2 50s 0s linear infinite;
+}
+
+.c_loop_wrap:hover ul {
+  animation-play-state: paused;
+}
+
